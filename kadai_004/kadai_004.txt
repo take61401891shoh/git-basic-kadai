@@ -1,0 +1,36 @@
+PS C:\Users\user\TEST\git_tutorial> cd ..
+
+
+
+Mode                 LastWriteTime         Length Name                                                                          
+
+
+
+
+
+
+Mode                 LastWriteTime         Length Name                                                                          
+----                 -------------         ------ ----                                                                          
+d-----        2024/03/13     13:13                git_challenge                                                                 
+
+
+PS C:\Users\user\TEST\v2> cd git_challenge
+PS C:\Users\user\TEST\v2\git_challenge> git init
+Initialized empty Git repository in C:/Users/user/TEST/v2/git_challenge/.git/
+PS C:\Users\user\TEST\v2\git_challenge> git add hello_world.txt
+PS C:\Users\user\TEST\v2\git_challenge> git commit -m "hello_world.txtを作成"
+[main (root-commit) 84f1bd4] hello_world.txt繧剃ｽ懈・
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\user\TEST\v2\git_challenge> git add hello_world.txt
+PS C:\Users\user\TEST\v2\git_challenge> git commit -m "hello_worldを記入"   
+[main 3adedd9] hello_world繧定ｨ伜・
+ 1 file changed, 1 insertion(+)
+PS C:\Users\user\TEST\v2\git_challenge> git add hello_world.txt
+PS C:\Users\user\TEST\v2\git_challenge> git commit -m "日本語訳を追記"
+[main 9b9049f] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\user\TEST\v2\git_challenge> git log --oneline
+9b9049f (HEAD -> main) 日本語訳を追記
+3adedd9 hello_worldを記入
+84f1bd4 hello_world.txtを作成
